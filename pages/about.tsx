@@ -1,12 +1,16 @@
 import * as React from 'react'
 import Link from 'next/link'
 import Layout from '../components/Layout'
+import {
+    Button,
+} from 'antd'
 
 const AboutPage: React.FunctionComponent = () => (
   <Layout title="About | Next.js + TypeScript Example">
     <h1>About</h1>
     <p>This is the about page</p>
     <p>
+        <Button type="primary">Go home</Button>
       <Link href="/">
         <a>Go home</a>
       </Link>

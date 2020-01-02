@@ -1,5 +1,6 @@
 {
-  "name": "with-typescript",
+  "name": "ant-design-admin",
+  "repository": "https://github.com/ithinco/ant-design-admin",
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
@@ -8,7 +9,8 @@
     "type-check": "tsc"
   },
   "dependencies": {
-    "isomorphic-unfetch": "3.0.0",
+    "antd": "latest",
+    "isomorphic-unfetch": "latest",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"
@@ -17,7 +19,12 @@
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
-    "typescript": "latest"
+    "typescript": "latest",
+    "@zeit/next-less": "latest",
+    "babel-plugin-import": "latest",
+    "less": "latest",
+    "less-vars-to-js": "latest",
+    "null-loader": "latest"
   },
   "license": "ISC"
 }
